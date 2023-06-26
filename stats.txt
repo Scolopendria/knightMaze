@@ -1,0 +1,11 @@
+It takes around 80µs to find the first solution, regardless of the starting square.
+After that, it takes on average 8µs to find the next solution. Theoretically, the program
+should take longer and longer to find more solutions as the the program starts searching the
+broader search space for unlikely solutions.
+
+At one second:
+Starting square:    Solutions found:
+        0                   201k
+        10                  292k
+        35                  102k
+        45                  38.1k
