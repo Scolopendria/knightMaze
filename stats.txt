@@ -4,8 +4,17 @@ should take longer and longer to find more solutions as the the program starts s
 broader search space for unlikely solutions.
 
 At one second:
-Starting square:    Solutions found:
+Starting square:        Solutions found:
         0                   201k
         10                  292k
         35                  102k
         45                  38.1k
+
+After some optimizations, such as using 'unsigned char' instead of 'int', it takes
+around 50µs (60% faster) to find the first solution.
+At one second:
+Starting square:        Solutions found:        Frequency(µs/sol):      Speed increase:
+       0                     306k                  3.27                     +52%
+       10                    366k                  2.73                     +25%
+       35                    125k                  7.98                     +25%
+       45                    53.4k                 18.7                     +40%
