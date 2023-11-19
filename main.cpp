@@ -25,7 +25,7 @@ void update(
 void printBoard(const std::array<unsigned char, 64>& board);
 
 int main() {
-    // test
+    // test 2
     int solutionCount = 0;
     std::array<unsigned char, 64> board,
         legalPossibilities = {
