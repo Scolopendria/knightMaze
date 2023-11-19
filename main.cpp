@@ -7,9 +7,10 @@
 // Starting square must be less than 64 
 // or program will crash on the first line of update.
 // No safety net
-#define STARTING_SQUARE 45
-// Calculating time defines the amount of time (in µs) allocated to find solutions
-#define CALCULTING_TIME 1000000
+#define STARTING_SQUARE 10
+// Calculating time defines the amount of time (in s) allocated to find solutions
+#define CALCULTING_TIME 0
+#define SOLUTION_COUNT_ORDER 33554432
 
 void solver(
     std::array<unsigned char, 64>  board, std::array<unsigned char, 64>  legalPossibilities,
@@ -24,6 +25,7 @@ void update(
 void printBoard(const std::array<unsigned char, 64>& board);
 
 int main() {
+    // test
     int solutionCount = 0;
     std::array<unsigned char, 64> board,
         legalPossibilities = {
@@ -90,7 +92,7 @@ void solver(
         indexPair.begin(),
         indexPair.end(),
         [](std::array<unsigned char, 2> a, std::array<unsigned char, 2> b) {
-            return a[1] < b[1];
+            return a[1] > b[1];
         }
     );
 
@@ -110,13 +112,25 @@ void update(
 
     if (moveNumber == 64) {
         solutionCount++;
-        auto endTime = std::chrono::steady_clock::now();
-        
-        if (std::chrono::duration_cast<std::chrono::microseconds> (endTime - startTime).count() > CALCULTING_TIME) {
-            std::cout << "Solution " << solutionCount << " took " <<
-                std::chrono::duration_cast<std::chrono::microseconds> (endTime - startTime).count() << "µs\n";
-            printBoard(board);
-            exit(EXIT_SUCCESS);
+        auto endTime = std::chrono::steady_clock::now(); // No time penalty
+        if (   solutionCount
+        //     !(solutionCount % 10000)  && solutionCount < 100000  ||
+        //     !(solutionCount % 100000) && solutionCount < 1000000 ||
+        //     !(solutionCount % 1000000)
+        ) {
+        //     bool usingSeconds = true;
+            u_int64_t timeTaken = std::chrono::duration_cast<std::chrono::microseconds>(endTime - startTime).count();
+        //     if (timeTaken < 300) {
+        //         usingSeconds = false;
+        //         timeTaken = std::chrono::duration_cast<std::chrono::microseconds>(endTime - startTime).count();
+        //     }
+
+            std::cout << solutionCount << " " << timeTaken << "\n";
+
+            if (/*usingSeconds &&*/ timeTaken > CALCULTING_TIME) {
+                printBoard(board);
+                exit(EXIT_SUCCESS);
+            }
         }
 
         return;

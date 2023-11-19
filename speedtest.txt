@@ -1,0 +1,162 @@
+Solution 10000 took 22979µs
+Rate: 2.2979µs/sol.
+
+Solution 20000 took 44597µs
+Rate: 2.22985µs/sol.
+
+Solution 30000 took 61469µs
+Rate: 2.04897µs/sol.
+
+Solution 40000 took 80088µs
+Rate: 2.0022µs/sol.
+
+Solution 50000 took 103197µs
+Rate: 2.06394µs/sol.
+
+Solution 60000 took 122123µs
+Rate: 2.03538µs/sol.
+
+Solution 70000 took 144556µs
+Rate: 2.06509µs/sol.
+
+Solution 80000 took 163244µs
+Rate: 2.04055µs/sol.
+
+Solution 90000 took 181776µs
+Rate: 2.01973µs/sol.
+
+Solution 100000 took 200777µs
+Rate: 2.00777µs/sol.
+
+Solution 200000 took 469125µs
+Rate: 2.34562µs/sol.
+
+Solution 300000 took 763271µs
+Rate: 2.54424µs/sol.
+
+Solution 400000 took 1241296µs
+Rate: 3.10324µs/sol.
+
+Solution 500000 took 1812629µs
+Rate: 3.62526µs/sol.
+
+Solution 600000 took 2275938µs
+Rate: 3.79323µs/sol.
+
+Solution 700000 took 2594759µs
+Rate: 3.7068µs/sol.
+
+Solution 800000 took 3342913µs
+Rate: 4.17864µs/sol.
+
+Solution 900000 took 3808361µs
+Rate: 4.23151µs/sol.
+
+Solution 1000000 took 4418228µs
+Rate: 4.41823µs/sol.
+
+Solution 2000000 took 9628533µs
+Rate: 4.81427µs/sol.
+
+Solution 3000000 took 15870814µs
+Rate: 5.29027µs/sol.
+
+Solution 4000000 took 23s
+Rate: 5.75e-06s/sol.
+
+Solution 5000000 took 29s
+Rate: 5.8e-06s/sol.
+
+Solution 6000000 took 35s
+Rate: 5.83333e-06s/sol.
+
+Solution 7000000 took 41s
+Rate: 5.85714e-06s/sol.
+
+Solution 8000000 took 49s
+Rate: 6.125e-06s/sol.
+
+Solution 9000000 took 63s
+Rate: 7e-06s/sol.
+
+Solution 10000000 took 78s
+Rate: 7.8e-06s/sol.
+
+Solution 11000000 took 91s
+Rate: 8.27273e-06s/sol.
+
+Solution 12000000 took 103s
+Rate: 8.58333e-06s/sol.
+
+Solution 13000000 took 117s
+Rate: 9e-06s/sol.
+
+Solution 14000000 took 137s
+Rate: 9.78571e-06s/sol.
+
+Solution 15000000 took 150s
+Rate: 1e-05s/sol.
+
+Solution 16000000 took 157s
+Rate: 9.8125e-06s/sol.
+
+Solution 17000000 took 168s
+Rate: 9.88235e-06s/sol.
+
+Solution 18000000 took 180s
+Rate: 1e-05s/sol.
+
+Solution 19000000 took 190s
+Rate: 1e-05s/sol.
+
+Solution 20000000 took 204s
+Rate: 1.02e-05s/sol.
+
+Solution 21000000 took 218s
+Rate: 1.0381e-05s/sol.
+
+Solution 22000000 took 230s
+Rate: 1.04545e-05s/sol.
+
+Solution 23000000 took 236s
+Rate: 1.02609e-05s/sol.
+
+Solution 24000000 took 243s
+Rate: 1.0125e-05s/sol.
+
+Solution 25000000 took 250s
+Rate: 1e-05s/sol.
+
+Solution 26000000 took 260s
+Rate: 1e-05s/sol.
+
+Solution 27000000 took 278s
+Rate: 1.02963e-05s/sol.
+
+Solution 28000000 took 290s
+Rate: 1.03571e-05s/sol.
+
+Solution 29000000 took 299s
+Rate: 1.03103e-05s/sol.
+
+Solution 30000000 took 311s
+Rate: 1.03667e-05s/sol.
+
+Solution 31000000 took 324s
+Rate: 1.04516e-05s/sol.
+
+Solution 32000000 took 337s
+Rate: 1.05313e-05s/sol.
+
+Solution 33000000 took 343s
+Rate: 1.03939e-05s/sol.
+
+Solution 33554432 took 349248286µs
+ 2 23  4 19 58 47 14 17 
+ 5 20  1 46 15 18 59 48 
+24  3 22 57 62 49 16 13 
+21  6 45 50 55 32 63 60 
+38 25 56 31 44 61 12 33 
+ 7 28 37 54 51 34 43 64 
+26 39 30  9 36 41 52 11 
+29  8 27 40 53 10 35 42

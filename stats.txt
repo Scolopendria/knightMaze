@@ -11,10 +11,12 @@ Starting square:        Solutions found:
         45                  38.1k
 
 After some optimizations, such as using 'unsigned char' instead of 'int', it takes
-around 50µs (60% faster) to find the first solution.
+around 50µs (60% faster) to find the first solution.(All following stats assume with optimizations)
 At one second:
 Starting square:        Solutions found:        Frequency(µs/sol):      Speed increase:
        0                     306k                  3.27                     +52%
-       10                    366k                  2.73                     +25%
+       10                    365k                  2.74                     +25%
        35                    125k                  7.98                     +25%
        45                    53.4k                 18.7                     +40%
+
+The disconnection system improves solution found starting at square 10 from 171k to 365k (+113% increase)
