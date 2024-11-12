@@ -210,6 +210,7 @@ void printBoard(const std::array<unsigned char, 64>& board) {
             std::cout << "\n";
         }
 
+	
         if (board[i] < 10) { std::cout << " "; } // Alignment
         std::cout << (int)board[i] << " ";
     }
